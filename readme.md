@@ -19,7 +19,7 @@ DB_PASSWORD=laravel
 ### 4. Migrate DB เพื่อใช้งานระบบ Authen ของ Laravel
 	$ docker exec app php artisan migrate
 
-# เงื่อไขในการทดสอบ
+# เงื่อนไขในการทดสอบ
 * เวลาในการทดสอบ 1 ชั่วโมง
 * ไม่เน้น UX/UI ขอให้ระบบสามารทำงานตาม Requirement ได้
 * ต้อง authen ก่อนเท่านั้น ถึงจะสามารถใช้ระบบบันทึกข้อความได้
