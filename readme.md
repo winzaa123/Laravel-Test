@@ -25,7 +25,7 @@ DB_PASSWORD=laravel
 - [ ] ต้อง authen ก่อนเท่านั้น ถึงจะสามารถใช้ระบบบันทึกข้อความได้
 ### 1. ระบบสามารถเก็บข้อความที่ต้องการที่จะบันทึกได้ โดยจะเก็บเป็น หัวข้อ และข้อความ
 	# ตัวอย่าง Field ที่เก็บข้อมูล
-	title varchar(255) 
+	title varchar(255) not null
 	message text
 	timestamp
 - [ ] ไฟล์ migration
