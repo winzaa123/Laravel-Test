@@ -13,7 +13,11 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
+                    <a class="btn btn-primary"
+                  href="{{ route('messages.index')}}" role="button" 
+                 >
+                   Create Message
+                 </a>
                     You are logged in!
                 </div>
             </div>
